@@ -18,3 +18,8 @@ github_username:  appropriatetech
 
 # Build settings
 markdown: kramdown
+
+sass:
+    load_paths:
+        - _sass
+        - _vendor/bootstrap
