@@ -22,4 +22,4 @@ markdown: kramdown
 sass:
     load_paths:
         - _sass
-        - _vendor/bootstrap
+        - _vendor/bootstrap/assets/stylesheets
