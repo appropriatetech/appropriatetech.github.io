@@ -9,7 +9,6 @@
 title: 7th International Conference on Appropriate Technology
 email: icat7@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  7th International Conference on Appropriate Technology ...
   Sustainable Technologies to Empower Communities – Bridging Theory with Practice
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://appropriatetech.net" # the base hostname & protocol for your site

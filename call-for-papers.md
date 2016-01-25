@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Call for Papers"
-date:   2016-01-21 00:39:26 -0500
 ---
 
 ## Theme
@@ -22,7 +21,7 @@ Abstracts for full papers, posters and project presentations are being accepted 
 Abstracts & full papers will be double blind peer reviewed. Abstracts must be between 200 and
 500 words. Please denote abstract category upon submission - full paper, project or poster.
 
-## Schedule
+## Submission Deadlines &amp; Schedule
 
 Deadline for Receipt of abstract for full paper, poster and/or project | March 15, 2016
 Notification of decision on abstracts for papers, posters & projects   | May 1, 2016

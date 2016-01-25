@@ -53,13 +53,51 @@ $on-laptop:        800px;
         "bootstrap"
 ;
 
-nav a {
+body {
+    position: relative;
+}
+
+#navbarCollapse {
+    background-color: white;
+}
+
+.navbar-collapse {
+    padding-left: 0;
+}
+
+.active a {
     font-weight: bold;
-    color: white;
+}
+
+#navbar-example .navbar-toggle {
+    background-image: url(../icons/favicon-32x32.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    padding-top: 1em;
+    box-sizing: border-box;
+}
+
+.anchor {
+    position: relative;
+    top: -50px;
 }
 
 .post table {
     @extend .table;
+}
+
+.navbar h1 {
+    color: white;
+    text-align: center;
 }
 
 .index-header {
@@ -84,11 +122,10 @@ nav a {
     border: 1px solid silver;
     box-shadow: 3px 1px 5px gray;
     text-align: center;
-}
 
-@media (screen and min-width: $screen-md-min) {
-    body {
-        padding: 1rem;
+    nav a {
+        font-weight: bold;
+        color: white;
     }
 }
 
@@ -98,10 +135,42 @@ nav a {
     }
 }
 
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.icon--twitter svg,
+.icon--github svg {
+    width: 1.5rem;
+}
+
+.site-footer {
+    margin-top: 1em;
+}
+
+@media (screen and min-width: $screen-md-min) {
+    body {
+        padding: 1rem;
+    }
+
+    .affix {
+        top: 0;
+        width: 100%;
+        background-color: white;
+        padding-top: 1em;
+    }
+}
+
 @media (screen and max-width: $screen-sm-max) {
     .index-header, .main-sidebar {
         h1 {
             font-size: 2.5rem;
         }
+    }
+    .contact-list {
+        text-align: center;
     }
 }
