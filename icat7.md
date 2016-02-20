@@ -31,6 +31,7 @@ Climate change will impact the poorest countries and their people the hardest. C
 
 
 
+-----------------------------------------------------------
 <div class="anchor" id="call-for-papers-anchor"></div>
 
 ## Call for Papers
@@ -54,8 +55,8 @@ Abstracts & full papers will be double blind peer reviewed. Abstracts must be be
 ### Submission Deadlines &amp; Schedule
 
 Deadline for Receipt of abstract for full paper, poster and/or project | March 15, 2016
-Notification of decision on abstracts for papers, posters & projects   | May 1, 2016
-Deadline for full papers                                               | June 15, 2016
+Notification of decision on abstracts for papers, posters & projects   | May 1, Deadline
+2016 for full papers                                               | June 15, 2016
 Notification of decision on papers, posters & projects                 | August 10, 2016
 
 ### Suggested Topics
@@ -75,6 +76,7 @@ Policy and Standards                   | Technology policies, technology standar
 
 
 
+-----------------------------------------------------------
 <div class="anchor" id="registration-anchor"></div>
 
 ## Registration
