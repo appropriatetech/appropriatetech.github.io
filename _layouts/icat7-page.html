@@ -9,7 +9,7 @@ layout: page
       <span class="icon-bar"></span>
   </button>
   <div id="navbarCollapse" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav nav-pills">
       <li><a href="#post-title">ICAT7</a></li>
       <li><a href="#call-for-papers">Call for Papers</a></li>
       <li><a href="#registration">Registration</a></li>
@@ -18,3 +18,17 @@ layout: page
 </nav>
 
 {{ content }}
+
+<script>
+  $(function() {
+    $('body').scrollspy({ target: '#navbar-example' })
+    console.log($('#navbar-example').offset().top);
+    $('#navbar-example').affix({
+      offset: $('#navbar-example').offset().top //+ $('#navbar-example').height() - 100
+    });
+
+    $('#navbar-example').on('affixed.bs.affix', function() {
+      console.log($('#navbar-example').offset().top);
+    });
+  });
+</script>
