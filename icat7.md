@@ -4,10 +4,11 @@ title: "7<sup>th</sup> International Conference on Appropriate Technology"
 published: true
 ---
 
+
 ## Sustainable Technologies to Empower Communities – Bridging Theory with Practice
 
-### November 23 - 26
-### Mosi Oa Tunya (Victoria Falls), Zimbabwe
+**November 23 - 26**  
+**Mosi Oa Tunya (Victoria Falls), Zimbabwe**
 
 Climate change will impact the poorest countries and their people the hardest. Curtailing harmful climate change while eradicating poverty requires sustainable and ecologically sound solutions. Presently, 1.1 billion people in developing and underdeveloped countries have inadequate access to safe water; over 2.6 billion people lack basic sanitation; a third of the planet has no access to a stable, reliable energy grid; and as many or more humans lack access to the internet and the world wide web. Eliminating poverty and improving the quality of life requires increased agriculture, industry and transport productivity, which is possible via improved water, energy and information utilization. Most importantly, public health and human productivity require technology practices that address basic community needs. Appropriate technology’s vision focuses on enhancing equity and social justice. The implementation of AT focuses on, the most marginalized communities and underdeveloped nations. The sustainable promotion of AT requires implementing policies to safeguard the Earth while empowering the broadest possible population. These local, national and international policies will lead to more appropriate technology education, research and practice.
 
