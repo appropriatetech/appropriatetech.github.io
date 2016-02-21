@@ -22,3 +22,10 @@ sass:
     load_paths:
         - _sass
         - _vendor/bootstrap/assets/stylesheets
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _vendor
+  - vendor
+  - .travis.yml
