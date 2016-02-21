@@ -1,31 +1,13 @@
 ---
-layout: page
-title: 7<sup>th</sup> International Conference on Appropriate Technology
+layout: "page-with-side-menu"
+title: "7<sup>th</sup> International Conference on Appropriate Technology"
+published: true
 ---
-
-<nav id="navbar-example" class="navbar">
-  <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-  </button>
-  <div id="navbarCollapse" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#post-title">ICAT7</a></li>
-      <li><a href="#call-for-papers-anchor">Call for Papers</a></li>
-      <li><a href="#registration-anchor">Registration</a></li>
-    </ul>
-  </div>
-</nav>
-
 
 ## Sustainable Technologies to Empower Communities – Bridging Theory with Practice
 
-<h3><center>
-  November 23 - 26<br>
-  Mosi Oa Tunya (Victoria Falls), Zimbabwe
-</center></h3>
+### November 23 - 26
+### Mosi Oa Tunya (Victoria Falls), Zimbabwe
 
 Climate change will impact the poorest countries and their people the hardest. Curtailing harmful climate change while eradicating poverty requires sustainable and ecologically sound solutions. Presently, 1.1 billion people in developing and underdeveloped countries have inadequate access to safe water; over 2.6 billion people lack basic sanitation; a third of the planet has no access to a stable, reliable energy grid; and as many or more humans lack access to the internet and the world wide web. Eliminating poverty and improving the quality of life requires increased agriculture, industry and transport productivity, which is possible via improved water, energy and information utilization. Most importantly, public health and human productivity require technology practices that address basic community needs. Appropriate technology’s vision focuses on enhancing equity and social justice. The implementation of AT focuses on, the most marginalized communities and underdeveloped nations. The sustainable promotion of AT requires implementing policies to safeguard the Earth while empowering the broadest possible population. These local, national and international policies will lead to more appropriate technology education, research and practice.
 
