@@ -5,19 +5,29 @@
 
 
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Overriding Bootstrap Variables
+$font-family-sans-serif: "Source Sans Pro", "Open Sans", "Helvetica", Arial, sans-serif;
+$line-height-base: 1.6;
+$font-size-base: 16px;
+$font-weight-base: 300;
+
+$headings-font-family: "Source Sans Pro";
+$headings-font-weight: 500;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #263333;
+$body-bg:          #f0f4f4;
 $brand-color:      #2a7ae2;
 
+$font-size-h1:            floor(($font-size-base * 2    )) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 3)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+// Our Variables
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -30,13 +40,6 @@ $on-laptop:        800px;
 
 
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -53,9 +56,18 @@ $on-laptop:        800px;
         "bootstrap"
 ;
 
+html {
+    font-size: $font-size-base;
+}
+
 body {
     position: relative;
+    font-weight: $font-weight-base;
 }
+
+h1 { font-weight: 700; }
+h1, h2 { color: rgba(38,51,51,.9); }
+h3, h4 { color: rgba(38,51,51,.75); }
 
 #navbarCollapse {
     background-color: $body-bg;
@@ -103,8 +115,9 @@ body {
 }
 
 h2 {
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $grey-color;
+    margin-bottom: 2rem;
 }
 
 .index-header {
