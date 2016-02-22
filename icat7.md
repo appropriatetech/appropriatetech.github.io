@@ -5,6 +5,7 @@ published: true
 ---
 
 
+
 ### Sustainable Technologies to Empower Communities – Bridging Theory with Practice
 
 **November 23 - 26**<br>
@@ -34,10 +35,10 @@ Abstracts & full papers will be double blind peer reviewed. Abstracts must be be
 
 ### Submission Deadlines &amp; Schedule
 
-Deadline for Receipt of abstract for full paper, poster and/or project | March 15, 2016
-Notification of decision on abstracts for papers, posters & projects   | May 1, Deadline
-2016 for full papers                                               | June 15, 2016
-Notification of decision on papers, posters & projects                 | August 10, 2016
+Deadline for Receipt of abstract for full paper, poster and/or project | May 15, 2016
+Notification of decision on abstracts for papers, posters & projects   | June 1, 2016
+2016 for full papers                                                   | July 15, 2016
+Notification of decision on papers, posters & projects                 | September 10, 2016
 
 ### Suggested Topics
 
