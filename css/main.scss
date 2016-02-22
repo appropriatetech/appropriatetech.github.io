@@ -5,6 +5,13 @@
 
 
 
+// Our Variables
+$orange-color:       #E48934;
+$orange-color-light: lighten($orange-color, 40%);
+$grey-color:         #828282;
+$grey-color-light:   lighten($grey-color, 40%);
+$grey-color-dark:    darken($grey-color, 25%);
+
 // Overriding Bootstrap Variables
 $font-family-sans-serif: "Source Sans Pro", "Open Sans", "Helvetica", Arial, sans-serif;
 $line-height-base: 1.6;
@@ -27,16 +34,12 @@ $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$component-active-bg:    darken(saturate(#E48934, 10%), 10%);
+$component-active-bg:    darken(saturate($orange-color, 10%), 10%);
 $component-active-color:       white;
 
-$nav-link-hover-bg: $component-active-bg;
-$link-hover-color: $component-active-color;
-
-// Our Variables
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$nav-link-hover-bg:    $component-active-bg;
+$link-hover-color:     $component-active-color;
+/*$navbar-default-color: white;*/
 
 // Width of the content area
 $content-width:    800px;
@@ -71,9 +74,11 @@ body {
     font-weight: $font-weight-base;
 }
 
-h1 { font-weight: 700; }
-h1, h2 { color: rgba(38,51,51,.9); }
-h3, h4 { color: rgba(38,51,51,.75); }
+.post {
+    h1 { font-weight: 700; }
+    h1, h2 { color: rgba(38,51,51,.9); }
+    h3, h4 { color: rgba(38,51,51,.75); }
+}
 
 #navbarCollapse {
     background-color: $body-bg;
@@ -121,8 +126,16 @@ h3, h4 { color: rgba(38,51,51,.75); }
 }
 
 .navbar h1 {
-    color: white;
     text-align: center;
+}
+
+.navbar .navbar-header {
+    float: none;
+    color: white;
+}
+
+.navbar-side a {
+    color: $orange-color-light;
 }
 
 h2 {
@@ -134,10 +147,10 @@ h2 {
 .index-header {
     background-image: url(images/banner-bg.png);
     background-repeat: repeat-x;
-    background-color: #E48934;
+    background-color: $orange-color;
     padding: 1rem 1rem 0 1rem;
-    border: 1px solid silver;
-    box-shadow: 3px 3px 5px gray;
+    border: 1px solid $grey-color-light;
+    box-shadow: 3px 3px 5px $grey-color;
     text-align: center;
 
     nav {
@@ -148,16 +161,15 @@ h2 {
 .main-sidebar {
     background-image: url(images/banner-bg.png);
     background-repeat: repeat-x;
-    background-color: #E48934;
+    background-color: $orange-color;
     padding: 1rem;
     padding-top: 0;
-    border: 1px solid silver;
-    box-shadow: 3px 1px 5px gray;
+    border: 1px solid $grey-color-light;
+    box-shadow: 3px 1px 5px $grey-color;
     text-align: center;
 
     nav a {
         font-weight: bold;
-        color: white;
         border-radius: $border-radius-base;
     }
 }
