@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7th International Conference on Appropriate Technology</title>
+    <description>Sustainable Technologies to Empower Communities – Bridging Theory with Practice
+</description>
+    <link>http://appropriatetech.github.io/icat7-website/</link>
+    <atom:link href="http://appropriatetech.github.io/icat7-website/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 22 Feb 2016 05:41:01 +0000</pubDate>
+    <lastBuildDate>Mon, 22 Feb 2016 05:41:01 +0000</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+  </channel>
+</rss>
